@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "portalgun:whiteiron_ingot"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "portalgun:whiteiron_hoe"
+  }
+}

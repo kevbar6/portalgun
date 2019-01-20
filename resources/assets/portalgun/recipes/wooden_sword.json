@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": [
+      {
+        "item": "portalgun:bwood_planks"
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:wooden_sword"
+  }
+}

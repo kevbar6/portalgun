@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "portalgun:block/bwood_log_top",
+        "side": "portalgun:block/bwood_log"
+    }
+}

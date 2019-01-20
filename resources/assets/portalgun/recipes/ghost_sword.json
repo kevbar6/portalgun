@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "portalgun:nether_star_block"
+    },
+    "#": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "portalgun:ghost_sword"
+  }
+}

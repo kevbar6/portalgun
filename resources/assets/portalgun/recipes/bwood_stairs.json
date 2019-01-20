@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "portalgun:bwood_planks"
+    }
+  },
+  "result": {
+    "item": "portalgun:bwood_stairs",
+    "count": 4
+  }
+}

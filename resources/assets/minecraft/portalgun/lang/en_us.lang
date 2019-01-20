@@ -1,0 +1,58 @@
+#Creative Tab
+itemGroup.portaltab=Portal Gun
+
+#Items
+item.ydiamond.name=YDiamond
+item.ybeacon.name=YBeacon
+item.brokenportalgun.name=Broken Portal Gun
+item.portalgun.name=Portal Gun
+item.whiteiron_ingot.name=Whiteiron
+
+#Blocks
+tile.ydirt.name=YDirt
+tile.ygrass.name=YGrass
+tile.ydiamond_ore.name=YDiamond Ore
+tile.ydiamond_end_ore.name=Ydiamond Ore
+tile.ydiamond_overworld_ore.name=Ydiamond Ore
+tile.ydiamond_nether_ore.name=Ydiamond Ore
+tile.whiteiron_overworld_ore.name=Whiteiron Ore
+tile.whiteiron_nether_ore.name=Whiteiron Ore
+tile.bwood_log.name=BWood
+tile.bwood_planks.name=BWood Planks
+tile.bwood_leaves.name=BWood Leaves
+tile.bwood_sapling.name=BWood Sapling
+tile.bwood_stairs.name=BWood Stairs
+tile.bwood_slab.name=BWood Slab
+tile.nether_star_block.name=Nether Star Block
+
+#Tools
+item.ydiamond_axe.name=YDiamond Axe
+item.ydiamond_pickaxe.name=YDiamond Pickaxe
+item.ydiamond_shovel.name=YDiamond Shovel
+item.ydiamond_sword.name=YDiamond Sword
+item.ydiamond_hoe.name=YDiamond Hoe
+
+item.whiteiron_axe.name=Whiteiron Axe
+item.whiteiron_pickaxe.name=Whiteiron Pickaxe
+item.whiteiron_shovel.name=Whiteiron Shovel
+item.whiteiron_sword.name=Whiteiron Sword
+item.whiteiron_hoe.name=Whiteiron Hoe
+
+item.ghost_sword.name=???
+
+#Armor
+item.ydiamond_helmet.name=YDiamond Helmet
+item.ydiamond_chestplate.name=YDiamond Chestplate
+item.ydiamond_leggings.name=YDiamond Leggings
+item.ydiamond_boots.name=YDiamond Boots
+
+item.whiteiron_helmet.name=Whiteiron Helmet
+item.whiteiron_chestplate.name=Whiteiron Chestplate
+item.whiteiron_leggings.name=Whiteiron Leggings
+item.whiteiron_boots.name=Whiteiron Boots
+
+#Entity
+entity.herbert.name=Herbert
+
+#Generator
+generator.one=One

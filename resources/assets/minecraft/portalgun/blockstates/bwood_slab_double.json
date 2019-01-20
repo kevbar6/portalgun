@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=top": { "model": "portalgun:bwood_planks" },
+    "half=bottom": { "model": "portalgun:bwood_planks" }
+  }
+}

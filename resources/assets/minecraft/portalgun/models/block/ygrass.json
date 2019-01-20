@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "up": "portalgun:block/ygrass_up",
+    "side": "portalgun:block/ygrass_side",
+    "down": "portalgun:block/ygrass_down"
+  }
+}

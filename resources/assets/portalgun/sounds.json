@@ -1,0 +1,20 @@
+{
+  "entity.herbert.ambient":
+  {
+    "category": "entity",
+    "subtitle": "entity.herbert.ambient",
+    "sounds": [{"name": "portalgun:entity/herbert/ambient", "stream": true}]
+  },
+  "entity.herbert.hurt":
+  {
+    "category": "entity",
+    "subtitle": "entity.herbert.hurt",
+    "sounds": [{"name": "portalgun:entity/herbert/hurt", "stream": true}]
+  },
+  "entity.herbert.death":
+  {
+    "category": "death",
+    "subtitle": "entity.herbert.death",
+    "sounds": [{"name": "portalgun:entity/herbert/death", "stream": true}]
+  }
+}

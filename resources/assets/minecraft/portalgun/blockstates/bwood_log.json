@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "portalgun:bwood_log"
+    },
+    "axis=z": {
+      "model": "portalgun:bwood_log",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "portalgun:bwood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=none": {
+      "model": "portalgun:bwood_bark"
+    }
+  }
+}

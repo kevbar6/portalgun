@@ -1,0 +1,62 @@
+#Creative Tab
+itemGroup.portaltab=Portal Gun
+
+#Items
+item.ydiamond.name=Gelber Diamant
+item.ybeacon.name=Gelbes Leutchtfeuer
+item.brokenportalgun.name=Kaputte Portal Gun
+item.portalgun.name=Portal Gun
+item.whiteiron_ingot.name=Weißes Eisen
+item.bedrock_shard.name=Bedrockscherbe
+
+#Blocks
+tile.bdirt.name=Blaue Erde
+tile.ydiamond_end_ore.name=Gelbes Diamanterz
+tile.ydiamond_overworld_ore.name=Gelbes Diamanterz
+tile.ydiamond_nether_ore.name=Gelbes Diamanterz
+tile.whiteiron_overworld_ore.name=Weißes Eisenerz
+tile.whiteiron_nether_ore.name=Weißes Eisenerz
+tile.bwood_log.name=Blaues Holz
+tile.bwood_planks.name=Blaue Holzbretter
+tile.bwood_leaves.name=Blaues Holzlaub
+tile.bwood_sapling.name=Blauer Holzsetzling
+tile.bwood_stairs.name=Blaue Holztreppe
+tile.bwood_slab.name=Blaue Holzstufe
+tile.nether_star_block.name=Nethersternblock
+tile.bedrock_ore.name=Bedrock Ore
+
+#Tools
+item.ydiamond_axe.name=Gelbe Diamantaxt
+item.ydiamond_pickaxe.name=Gelbe Diamantspitzhacke
+item.ydiamond_shovel.name=Gelbe Diamantschaufel
+item.ydiamond_hoe.name=Gelbe Diamanthacke
+item.ydiamond_sword.name=Gelbes Diamantschwert
+
+item.whiteiron_axe.name=Weiße Eisenaxt
+item.whiteiron_pickaxe.name=Weiße Eisenspitzhacke
+item.whiteiron_shovel.name=Weiße Eisenschaufel
+item.whiteiron_hoe.name=Weiße Eisenhacke
+item.whiteiron_sword.name=Weißes Eisenschwert
+
+item.ghost_sword.name=???
+
+#Armor
+item.ydiamond_helmet.name=Gelber Diamanthelm
+item.ydiamond_chestplate.name=Gelber Diamantharnisch
+item.ydiamond_leggings.name=Gelber Diamantbeinschutz
+item.ydiamond_boots.name=Gelbe Diamantstiefel
+
+item.whiteiron_helmet.name=Weißer Eisenhelm
+item.whiteiron_chestplate.name=Weißer Eisenharnisch
+item.whiteiron_leggings.name=Weißer Eisenbeinschutz
+item.whiteiron_boots.name=Weiße Eisenstiefel
+
+#Entity
+entity.herbert.name=Herbert
+
+#Generator
+generator.one=Welttype 1
+
+#Commands
+commands.tpdimension.dimensionnotfound=Dimension nicht gefunden (unterstützte Dimensionen: -1 = Nether, 0 = Overworld) sollten andere Mods installiert sein, kann es mehr Demensionen geben
+commands.tpdimension.unsupporteddimensions=Das End wird noch nicht unterstützt :(
