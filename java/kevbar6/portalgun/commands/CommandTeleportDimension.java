@@ -43,7 +43,7 @@ public class CommandTeleportDimension extends CommandBase
 			if (dimension != 1){
 				try {
 					CustomTeleporter.teleportToDimension((EntityPlayer)sender, dimension, sender.getPosition().getX(), sender.getPosition().getY(), sender.getPosition().getZ());
-					World world = server.getWorld(dimension);
+					/*World world = server.getWorld(dimension);
 					if (sender.getPosition().getY() <255){
 						world.setBlockState(sender.getPosition(), Blocks.AIR.getDefaultState());
 						world.setBlockState(new BlockPos(sender.getPosition().getX(), sender.getPosition().getY()+1, sender.getPosition().getZ()), Blocks.AIR.getDefaultState());
@@ -54,7 +54,7 @@ public class CommandTeleportDimension extends CommandBase
 						world.setBlockState(new BlockPos(sender.getPosition().getX(), 265, sender.getPosition().getZ()), Blocks.AIR.getDefaultState());
 						world.setBlockState(new BlockPos(sender.getPosition().getX(), 254, sender.getPosition().getZ()), Blocks.GLOWSTONE.getDefaultState());
 						CustomTeleporter.teleportToDimension((EntityPlayer) sender, dimension, sender.getPosition().getX(), 255, sender.getPosition().getZ());
-					}
+					}*/
 
 				}
 				catch (IllegalArgumentException e){

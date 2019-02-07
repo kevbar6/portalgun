@@ -28,8 +28,10 @@ public class ItemInit {
     public static final Item BROKENPORTALGUN = new ItemBase("brokenportalgun");
     public static final Item YBEACON = new ItemBase("ybeacon");
     public static final Item WHITEIRON_INGOT = new ItemBase("whiteiron_ingot");
-    public static final Item PORTALGUN = new ItemPortalGun("portalgun");
+    public static final Item PORTALGUN = new ItemPortalGun("portalgun", 0);
+    public static final Item PORTALGUN_NETHER = new ItemPortalGun("portalgun_nether", -1);
     public static final Item BEDROCK_SHARD = new ItemBase("bedrock_shard");
+    public static final Item PORTAL_SHARD = new ItemBase("portal_shard");
 
     //Tools
     public static final Item AXE_YDIAMOND = new ToolAxe("ydiamond_axe", TOOL_YDIAMOND);

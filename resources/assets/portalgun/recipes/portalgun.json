@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "portalgun:ybeacon"
+    },
+    "#": [
+      {
+        "item": "portalgun:brokenportalgun"
+      }
+    ]
+  },
+
+  "result": {
+    "item": "portalgun:portalgun"
+  }
+}

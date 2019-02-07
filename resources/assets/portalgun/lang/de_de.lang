@@ -6,6 +6,7 @@ item.ydiamond.name=Gelber Diamant
 item.ybeacon.name=Gelbes Leutchtfeuer
 item.brokenportalgun.name=Kaputte Portal Gun
 item.portalgun.name=Portal Gun
+item.portalgun_nether.name=Portal Gun
 item.whiteiron_ingot.name=Weißes Eisen
 item.bedrock_shard.name=Bedrockscherbe
 
@@ -23,7 +24,7 @@ tile.bwood_sapling.name=Blauer Holzsetzling
 tile.bwood_stairs.name=Blaue Holztreppe
 tile.bwood_slab.name=Blaue Holzstufe
 tile.nether_star_block.name=Nethersternblock
-tile.bedrock_ore.name=Bedrock Ore
+tile.bedrock_ore.name=Bedrockerz
 
 #Tools
 item.ydiamond_axe.name=Gelbe Diamantaxt

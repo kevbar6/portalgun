@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "X#X",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:obsidian"
+    },
+    "#": {
+      "item": "minecraft:fire_charge"
+    }
+  },
+  "result": {
+    "item": "portalgun:portal_shard"
+  }
+}

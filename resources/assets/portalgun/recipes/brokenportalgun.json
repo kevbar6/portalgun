@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##X",
+    "  #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:redstone"
+    },
+    "#": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ]
+  },
+
+  "result": {
+    "item": "portalgun:brokenportalgun"
+  }
+}

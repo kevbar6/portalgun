@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:stained_glass",
+      "data": 4
+    },
+    "#": [
+      {
+        "item": "portalgun:ydiamond"
+      }
+    ]
+  },
+
+  "result": {
+    "item": "portalgun:ybeacon"
+  }
+}
