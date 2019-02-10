@@ -5,10 +5,11 @@ itemGroup.portaltab=Portal Gun
 item.ydiamond.name=Gelber Diamant
 item.ybeacon.name=Gelbes Leutchtfeuer
 item.brokenportalgun.name=Kaputte Portal Gun
-item.portalgun.name=Portal Gun
-item.portalgun_nether.name=Portal Gun
+item.portalgun.name=Portal Gun Oberwelt
+item.portalgun_nether.name=Portal Gun Nether
 item.whiteiron_ingot.name=Weißes Eisen
 item.bedrock_shard.name=Bedrockscherbe
+item.portal_shard.name=Portalscherbe
 
 #Blocks
 tile.bdirt.name=Blaue Erde

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "portalgun:item/portalgun"
+    "layer0": "portalgun:item/portalgun_nether"
   }
 }

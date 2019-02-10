@@ -10,7 +10,7 @@ import net.minecraft.world.gen.feature.WorldGenMinable;
 import java.util.Random;
 
 public class BiomeBWoodTreeForest extends Biome {
-    protected static final WorldGenAbstractTree TREE = new BWoodTree();
+    protected static final WorldGenAbstractTree TREE = new BWoodTree(false);
 
     public BiomeBWoodTreeForest() {
         super(new BiomeProperties("bwood_forest").setBaseHeight(0.125F).setHeightVariation(0.0005F).setTemperature(1F).setWaterColor(16757078));

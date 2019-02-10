@@ -14,7 +14,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class BWoodTreeGen implements IWorldGenerator {
-    private final WorldGenerator BWOOD = new BWoodTree();
+    private final WorldGenerator BWOOD = new BWoodTree(false);
 
     @Override
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {

@@ -123,7 +123,7 @@ public class BlockSaplingBaseorig extends BlockBush implements IGrowable, IHasMo
         switch(type)
         {
             case "bwood":
-                gen = new BWoodTree();
+                gen = new BWoodTree(false);
                 break;
 
         }

@@ -1,12 +1,12 @@
 package kevbar6.portalgun.objects.blocks;
 
 import kevbar6.portalgun.Main;
-import kevbar6.portalgun.init.BlockInit;
 import kevbar6.portalgun.init.ItemInit;
 import kevbar6.portalgun.util.interfaces.IHasModel;
 import kevbar6.portalgun.world.generation.BWoodTree;
 import net.minecraft.block.BlockBush;
 import net.minecraft.block.IGrowable;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.block.state.BlockStateContainer;
@@ -33,9 +33,10 @@ public class BlockSaplingBase extends BlockBush implements IGrowable, IHasModel
     {
         setUnlocalizedName(name);
         setRegistryName(name);
-        this.setDefaultState(this.blockState.getBaseState().withProperty(STAGE, Integer.valueOf(0)));
+        setCreativeTab(Main.portaltab);
+        setHardness(0.0F);
+        setSoundType(SoundType.PLANT);
 
-        BlockInit.BLOCKS.add(this);
         ItemInit.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
 
@@ -44,7 +45,6 @@ public class BlockSaplingBase extends BlockBush implements IGrowable, IHasModel
     {
         return SAPLING_AABB;
     }
-
 
     @Override
     public void updateTick(World worldIn, BlockPos pos, IBlockState state, Random rand)
@@ -60,11 +60,10 @@ public class BlockSaplingBase extends BlockBush implements IGrowable, IHasModel
         }
     }
 
-
     public void generateTree(World worldIn, BlockPos pos, IBlockState state, Random rand)
     {
         if (!TerrainGen.saplingGrowTree(worldIn, rand, pos)) return;
-        WorldGenerator worldgenerator = new BWoodTree();
+        WorldGenerator worldgenerator = new BWoodTree(true);
 
         worldIn.setBlockState(pos, Blocks.AIR.getDefaultState(), 4);
 
@@ -77,15 +76,11 @@ public class BlockSaplingBase extends BlockBush implements IGrowable, IHasModel
         return true;
     }
 
-    /* (non-Javadoc)
-     * @see net.minecraft.block.IGrowable#canUseBonemeal(net.minecraft.world.World, java.util.Random, net.minecraft.util.math.BlockPos, net.minecraft.block.state.IBlockState)
-     */
     @Override
     public boolean canUseBonemeal(World worldIn, Random rand, BlockPos pos, IBlockState state)
     {
         return worldIn.rand.nextFloat() < 0.45D;
     }
-
 
     @Override
     public void grow(World worldIn, Random rand, BlockPos pos, IBlockState state)
@@ -105,7 +100,6 @@ public class BlockSaplingBase extends BlockBush implements IGrowable, IHasModel
     {
         return getDefaultState().withProperty(STAGE, Integer.valueOf((meta & 8) >> 3));
     }
-
 
     @Override
     public int getMetaFromState(IBlockState state)

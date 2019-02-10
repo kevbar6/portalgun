@@ -30,7 +30,8 @@ public class ItemPortalGun extends Item implements IHasModel {
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
         if (!worldIn.isRemote) {
             if (playerIn.getPosition().getY() < 255) {
-                CustomTeleporter.teleportToDimension((EntityPlayer) playerIn, dimension, playerIn.getPosition().getX(), playerIn.getPosition().getY(), playerIn.getPosition().getZ());
+                CustomTeleporter.teleportToDimension((EntityPlayer) playerIn, dimension, playerIn.getPosition().getX(),
+                        playerIn.getPosition().getY(), playerIn.getPosition().getZ());
 
             }
             playerIn.getCooldownTracker().setCooldown(this, 100);
