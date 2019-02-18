@@ -25,7 +25,7 @@ public class BlockInit {
 
     public static final Block BWOOD_LOG = new BlockLogBase("bwood_log");
     public static final Block BWOOD_LEAVES = new BlockLeavesBase("bwood_leaves");
-    public static final Block BWOOD_SAPLING = new BlockSaplingBaseorig("bwood_sapling");
+    public static final Block BWOOD_SAPLING = new BlockSaplingBase("bwood_sapling");
     public static final Block BWOOD_PLANKS = new BlockWoodBase("bwood_planks", Material.WOOD, SoundType.WOOD, 0F, 2F, 5F, "axe", 1);
     public static final Block BWOOD_STAIRS = new BlockStairsBase("bwood_stairs", BWOOD_PLANKS.getDefaultState());
 }
