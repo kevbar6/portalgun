@@ -109,7 +109,6 @@ public class BWoodTree extends WorldGenAbstractTree
                             setBlockAndNotifyAdequately(world, pos8, LEAVES);
                         }
 
-
                         if (i == 3 + random) {
                             //log
                             setBlockAndNotifyAdequately(world, pos2, LOG1);
@@ -150,7 +149,6 @@ public class BWoodTree extends WorldGenAbstractTree
                             setBlockAndNotifyAdequately(world, pos30, LEAVES);
                             setBlockAndNotifyAdequately(world, pos31, LEAVES);
                             setBlockAndNotifyAdequately(world, pos32, LEAVES);
-
                         }
 
                         if (i == 5 + random) {
