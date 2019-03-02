@@ -33,7 +33,6 @@ public class BlockLeavesBase extends BlockLeaves implements IHasModel
 
     public BlockLeavesBase(String name)
     {
-        //type = name.replaceAll("_leaves", "").trim();
         setUnlocalizedName(name);
         setRegistryName(name);
         setSoundType(SoundType.PLANT);
